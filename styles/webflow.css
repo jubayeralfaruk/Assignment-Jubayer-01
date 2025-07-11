@@ -230,16 +230,17 @@ main{
   margin-bottom: 14px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding-top: 70px;
 }
 .touch-container-title{
   font-weight: bold;
   font-size: 97px;
-  width: 528px;
+  width: 510px;
 }
-.touch-container-right form{
-  
-  padding-bottom: 70px;
-  
+.touch-container-right{
+  margin-left: 0px;
+  display: block;
+  width: 495px;
 }
 .touch-container-right label{
   color: #000000;
@@ -251,7 +252,7 @@ main{
  .touch-container-right input[type='text'], .touch-container-right textarea{
     display: block;
     height: 60px;
-    width: 195%;
+    width: 100%;
     padding: 0px 0px 0px 20px;
     margin-bottom: 20px;
     border: none;
@@ -268,8 +269,8 @@ main{
   padding-top: 20px;
 }
 .touch-container-right button{
-  width: 203%;
-  padding: 20px 0px;
+  width: 104%;
+  padding: 20px 0px 20px 0px;
   margin-bottom: 70px;
 }
 
