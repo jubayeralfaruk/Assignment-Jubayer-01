@@ -11,12 +11,27 @@
   font-weight: 900px;
   font-style: normal;
 }
+body{
+  background-color: #F5F8FF;
+}
 
 
 /* share styles */
 
 .primary-color{
     color: #4E47FF;
+}
+.color01{
+  color: #252432;
+}
+.color02{
+  color: #1E1E1E;
+}
+.color03{
+  color: #757575;
+}
+.color04{
+  color: #B3B3B3;
 }
 .primary-btn{
     background-color: #4E47FF;
@@ -25,6 +40,11 @@
     border-radius: 10px;
     border: none;
     font-weight: bold;
+}
+.primary-btn:hover{
+  background-color: #0800ff;
+  pointer-events: painted;
+  cursor: pointer;
 }
 
 /*__________ Header Styles__________ */
@@ -61,4 +81,91 @@ nav button{
 }
 .banner .focuse-btn{
   margin-bottom: 152px;
+}
+
+
+/* __________ Main Section Styles__________ */
+
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+/* Action-section Style */
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 110px 0px ;
+}
+.action-container-01{
+  width: 400px;
+  height: 210px;
+  
+}
+.action-title{
+  font-weight: bold;
+  font-size: 35px;
+}
+.action-container-02 img{
+  height: 330;
+  width: 405;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px #000000;
+}
+
+
+/* Productive User Styles */
+
+.productive-user{
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 30px 140px;
+  border-radius: 25px;
+  margin-bottom: 130px;
+}
+.productive-user-title{
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+.productive-user-items{
+  display: flex;
+  justify-content: space-between;
+}
+.productive-user-items .item-title{
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0px auto;
+}
+.productive-user-items .item-text{
+  margin: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Focus  Style */
+.focus{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px 0px 70px 0px;
+  margin-bottom: 90px;
+  border-radius: 25px;
+}
+.focus-title{
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.focus-description{
+  color: rgba(0, 0, 0, 0.5);
+}
+.focus button{
+  margin-bottom: 20px;
+}
+.focus img{
+  height: 360px;
+  width: 840px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
